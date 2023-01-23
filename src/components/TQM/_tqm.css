@@ -1,0 +1,103 @@
+.tqm {
+    display: flex;
+}
+
+.tqm_content {
+    width: calc(100% - 70px);
+}
+
+.upper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    width: 200px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    padding: 20px 5px;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+
+.edit_icon {
+    background-color: #283848;
+    color: white;
+    padding: 1%;
+    border-radius: 50%;
+}
+
+.heading {
+    font-size: 20px;
+    color: #2a2e37;
+    margin-left: 5%;
+}
+
+.Card {
+    width: 130px;
+    height: 280px;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    padding: 1% 5%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.icon_d > p {
+    font-size: 18px;
+    color: #4b4b4b;
+}
+.icon_d {
+    margin-top: 10px;
+    font-size: 55px;
+    color: #6dbcdb;
+}
+.card_stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.stats {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #15803d;
+}
+.card_btn {
+    background-color: #15803d;
+    border-radius: 50px;
+    color: white;
+}
+
+.clock {
+    color: red;
+}
+.card_btn > p {
+    /* width: 20px; */
+    padding: 5px 10px;
+}
+
+.lower_sec {
+    display: flex;
+    flex-direction: column;
+}
+.lower_sec__up, .lower_sec__down {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+}
+
+.tick {
+    color: #15803d;
+}
+.badge {
+    color: goldenrod;
+}
+/* button */

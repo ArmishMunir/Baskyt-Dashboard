@@ -1,0 +1,19 @@
+.menu {
+    background-color:#283848;
+    max-width: 70px;
+    min-height: calc(100vh - 105px);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1% 0%;
+}
+
+.i {
+    font-size: 25px;
+    margin: 13px 0px;
+}
+.i:hover {
+    cursor: pointer;
+    color: #b91c1c;
+}
